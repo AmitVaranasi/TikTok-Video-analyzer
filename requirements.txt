@@ -1,0 +1,10 @@
+google-generativeai
+moviepy
+openai-whisper
+opencv-python
+Pillow
+python-dotenv
+
+#pip install anthropic moviepy opencv-python "openai-whisper[torch]"
+#pip install openai moviepy opencv-python "openai-whisper[torch]" 
+#pip install google-generativeai moviepy opencv-python "openai-whisper[torch]" 
