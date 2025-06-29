@@ -1,0 +1,154 @@
+--- Claude LLM Analysis Results (claude_responses_medical_video.txt) ---
+
+
+============================================================
+VIDEO: tiktok_video_3.mp4
+============================================================
+
+--- Audio Transcript (Whisper) ---
+ First little bath. Well, she's shaking. Look at those chubby arms. Hmm. Her tiny bandage from her vaccine. Oh, under leg. Yeah. She took that like a champ. She didn't even cry. She went. Yes, it went flinch or cry. Do you have an antibiotic? This is no, I want breast milk and now face just opening. She's like, I want it. You want some milk? She keeps opening.
+
+--- Claude AI Description ---
+### Video Analysis: Anti-Vaccination TikTok Content
+
+#### 1. Text-Based Features:
+* **Core Claims/Arguments:** The video falsely implies causation between vaccination and infant death, with the parent expressing regret about vaccinating their 3-day-old baby who subsequently died
+* **Narrative Type:** Personal tragedy/testimonial narrative designed to create fear and doubt about infant vaccines
+* **Keywords and Phrases:** "I wish we didn't vaccinate her now," "passed at 3 days old," "first and only bath," "before she passed"
+* **Source Credibility/References (explicit or implied):** Claims personal experience as evidence; no medical sources or context provided
+* **Call to Action (CTA):** Implicit suggestion to avoid vaccinating infants
+* **Emotional Language Used:** Highly emotional language using grief, regret, and loss to create fear ("wish we didn't," crying emojis, "passed")
+* **Misinformation/Disinformation Flags (if present):** Major red flag - implies vaccine caused infant death without medical evidence; creates false correlation/causation narrative
+
+#### 2. Image/Video-Based Features:
+* **Visual Setting/Environment:** Hospital/medical facility setting with medical equipment visible in background
+* **Characters/Presenters:**
+    * **Identity/Appearance:** Newborn infant receiving bath
+    * **Demographics (approximate):** Newborn baby (appears to be 3 days old as stated)
+    * **Facial Expressions/Body Language:** Infant appears healthy and normal during bath time
+* **Objects/Props Displayed:** Medical bassinet, hospital room equipment, towels, medical setting props
+* **On-Screen Text/Graphics:** Pink overlay text stating regret about vaccination and infant's death
+* **Visual Tone/Aesthetics:** Contrasts tender, normal newborn care visuals with alarming text overlay
+* **Audience Engagement Cues (visual):** Crying emojis, emotional text overlay designed to evoke sympathy and fear
+
+#### 3. Audio-Based Features:
+* **Speaker Tone/Emotion:** Tender, loving parental tone during bath time - creates stark contrast with overlay message
+* **Pacing and Emphasis:** Normal
+
+============================================================
+
+
+============================================================
+VIDEO: tiktok_video_4.mp4
+============================================================
+
+--- Audio Transcript (Whisper) ---
+ As a very proud, loud and proud member of the Antivacs slash Novacs slash do your research before you Vacs mom community I have a hot take for you guys because I am also a member of the infant law community. Since bringing my story of my son passing away to social media the amount of and I say this you guys because again I am part of this community I wholeheartedly believe in not vaccinating and or doing your research before vaccinating delaying vaccinations like anything that goes against just pumping your kid full of all the shots and vaccinations right as soon as they are born I am full wholeheartedly believe in that and none of my children have been vaccinated including myself has never been vaccinated so I just want to let people know because I share the story of my son passing away from SIDS and I talk about that on this page a lot and the amount of anti-vaccine mothers and community members that want to run to my comments and leave a comment that you guys you're just you're not doing it right okay first off it doesn't pertain to my situation but second off if it did I would just like to let you know you guys are doing and going about trying to spread this information the complete wrong way okay you coming to somebody's post who is talking about their child dying of unknown causes and saying please don't vaccinate your next baby please as if you're insinuating that you know that the child died from vaccinations went for some not at all true it's not at all true and you have no way of knowing that because it's not your child so again I am a proud anti-vaxxer okay and I believe that you should also do your research and hopefully become one yourself but that is not the way that we need to be spreading the word to other moms and I completely understand why they are so pissed off and don't like us okay because I get these comments on my own page being a mom who doesn't vaccinate her kids I get the comments from people who are telling me oh please that poor baby don't vaccinate the next one because it's your fault that they died because you vaccinated the first one that's what you sound like that's what you sound like on a mother who's child died you're commenting something like that on her page okay it's completely insensitive and it is the wrong way to go about doing things okay don't don't don't do that the right way and the way that I as a lost mom and anti-vaxxer mom I'm telling you you should go about doing it hey mama I can't imagine what you've gone through here's some information that I've found to ease my mind and some of the medical decisions I make surrounding my babies at such a young age X Y and Z here is where I found the information X Y and Z I think it would be great if you went and read about it and if it was something that interested you I would love to put to offer you more information that's how we need to go about it you guys don't piss people off by acting like you know better and acting like it's their fault for choosing to vaccinate because that's not the right way to get moms to try and do their research okay don't ever fault and or guilt mothers because of accidents has seds is unknown that's why they call it sudden infant death so you cannot tell me every case is linked to vaccines especially mine because my son was unvaccinated so as a member of both loss and anti-vaxxed communities okay I'm just begging us all to take a little bit more thought into how we put this information out onto people's pages and just remember that somebody else is reading that comment and it might be completely read the wrong way than what you have intended it so do more than just be nice and kind and respectful about it if anything okay all we want is you know we like to learn but we don't want to feel shamed and we definitely don't want to feel like you're trying to tell us that we did something wrong which resulted in the death of our children because that is absolutely not going to get me on your team absolutely not so just some food for thought
+
+--- Claude AI Description ---
+### Video Analysis: Anti-Vaccination TikTok Content
+
+#### 1. Text-Based Features:
+* **Core Claims/Arguments:** 
+  - Vaccines are dangerous and should be avoided or delayed
+  - Parents should "do your research" before vaccinating
+  - Anti-vaccine advocates are using wrong messaging tactics
+  - SIDS deaths are being incorrectly attributed to vaccines by anti-vaccine community members
+
+* **Narrative Type:** Personal testimony/community critique - speaker positions herself as both a bereaved mother and anti-vaccine advocate critiquing her own community's messaging tactics
+
+* **Keywords and Phrases:** "Anti-vacs," "do your research," "infant loss community," "SIDS," "unvaccinated," "pumping your kid full of shots," "sudden infant death"
+
+* **Source Credibility/References (explicit or implied):** Speaker claims personal authority through dual identity as both bereaved mother and anti-vaccine advocate; no scientific sources cited
+
+* **Call to Action (CTA):** Urging anti-vaccine community to change messaging approach to be more "nice and kind and respectful"
+
+* **Emotional Language Used:** "Hot take," "proud, loud and proud," "completely insensitive," "piss people off," "begging," emotional appeals to maternal experience
+
+* **Misinformation/Disinformation Flags:** Promotes vaccine hesitancy without scientific evidence; uses personal anecdote to make broader claims about vaccine safety
+
+#### 2. Image/Video-Based Features:
+* **Visual Setting/Environment:** Interior of a vehicle (car/SUV), casual setting suggesting authenticity and relatability
+
+* **Characters/Presenters:**
+  * **Identity/Appearance:** Young woman with long blonde hair, casual white hoodie
+  * **Demographics (approximate):** White female, appears to be in early-to-mid 20s
+  * **Facial Expressions/Body Language:** Animated facial expressions, hand gestures, direct eye contact with camera, passionate/emphatic delivery
+
+* **Objects/Props Displayed:** Vehicle interior, sunroof visible, no medical or scientific props
+
+* **On-Screen Text/Graphics:** Text overlay reading "As a member of the loss mamas & the ANTI vaccine mamas, we nee
+
+============================================================
+
+
+============================================================
+VIDEO: tiktok_video_5.mp4
+============================================================
+
+--- Audio Transcript (Whisper) ---
+ RFK Jr. just revealed to members of Congress that he wants every American to be wearing a government bag menaculableized like a health tracker within the next four years. Yeah and this is from the same guy who's been scaring people off of vaccines, masks and even fucking Tylenol because apparently the government can't be trusted with the health of your body. What he wants is for the Department of Health and Human Services to push this plan with one of the biggest advertising campaigns in history. Mr. Evil Bill Gates tracking ship in the vaccine now wants to strap a federally sponsored fit bit on your ass. Does he even listen to himself speak? Does he know who his supporters are? Oh and by the way that people helping him design this plan they've also got financial sakes in the wearable tech industry. So when Bobby here is talking about health freedom what he really means is his friends cashing in while you're uploading your blood sugar to the cloud. You don't get to run for president or help run in office on paranoid delusions and they turn around and tell everyone to wear a government endorsement mood ring that sends out an alert if you start thinking about protesting to a party.
+
+--- Claude AI Description ---
+### Video Analysis: Anti-Vaccination TikTok Content
+
+#### 1. Text-Based Features:
+* **Core Claims/Arguments:** RFK Jr. wants mandatory government health trackers for all Americans within 4 years; hypocrisy between opposing vaccines/medical interventions while promoting government surveillance devices; financial conflicts of interest in wearable tech industry; government overreach and surveillance concerns
+* **Narrative Type:** Exposé/whistleblower format revealing alleged hypocrisy and corruption
+* **Keywords and Phrases:** "government bag," "health tracker," "scaring people off vaccines," "Evil Bill Gates," "tracking chip," "federally sponsored fitbit," "health freedom," "paranoid delusions," "government endorsement mood ring"
+* **Source Credibility/References (explicit or implied):** Claims RFK Jr. "revealed to members of Congress" but no specific sources cited
+* **Call to Action (CTA):** Implicit - be aware of government overreach and question official health policies
+* **Emotional Language Used:** "Evil Bill Gates," "fucking Tylenol," "paranoid delusions," "cashing in" - highly charged, inflammatory language
+* **Misinformation/Disinformation Flags (if present):** Unsubstantiated claims about mandatory tracking devices, conspiracy theories linking vaccines to surveillance, no credible sources provided
+
+#### 2. Image/Video-Based Features:
+* **Visual Setting/Environment:** Interior of a work truck/vehicle cab with industrial/blue-collar setting
+* **Characters/Presenters:**
+    * **Identity/Appearance:** White male, bearded, wearing high-visibility safety vest over casual clothing, visible tattoo on arm
+    * **Demographics (approximate):** Male, 25-35 years old, working-class presentation
+    * **Facial Expressions/Body Language:** Animated, expressive, gesturing with hands, appears frustrated/indignant
+* **Objects/Props Displayed:** Safety vest, truck interior, steering wheel - emphasizes working-class credibility
+* **On-Screen Text/Graphics:** Text overlays including "WHO'S BEEN SCARING PEOPLE OFF," "ADVERTISING CAMPAIGNS IN HISTORY," "OH AND BY THE WAY," "WHILE YOU
+
+============================================================
+
+
+============================================================
+VIDEO: tiktok_video_6.mp4
+============================================================
+
+--- Audio Transcript (Whisper) ---
+ Karen getting her vaccine. Hi there. So my friends told me to ask for the Pfizer. Can I get some of that please? Well, you're in luck. That's the one I have. Okay, great. And I also heard that some of them have the government tracking devices so I don't want any with that in it. Okay, good. Because that's none of them. Sweetheart, are you serious? Have you been on Facebook? Okay, so did you want the vaccine or what are we doing here? Well, of course, I don't want it. It's being forced upon me. Kind of like jury duty. Ma'am, if you don't want it, I don't have to give it to you. Is that a trick saying you people can tase me when I try to leave? What? Oh, nothing. That's just a little stay-at-home mom humor. And I also want to get those medicines that Donald Trump had. I heard those are good too. Oh, I'm sorry, ma'am. We don't actually have access to that. Oh, whatever. All right, inject me with the government aids. Go ahead. There you go. Let's go ahead and schedule your second shot. I beat COVID. Oh, ma'am, please put your mask back on. We still have to... Oh, my friends so meet the second vaccine to scan.
+
+--- Claude AI Description ---
+### Video Analysis: Anti-Vaccination Satire TikTok
+
+#### 1. Text-Based Features:
+* **Core Claims/Arguments:** This is satirical content mocking common anti-vaccine conspiracy theories including government tracking devices, forced vaccination, and misinformation spread through social media (Facebook). The video doesn't promote anti-vaccine views but rather ridicules them.
+
+* **Narrative Type:** Comedy/satire - parody of a "Karen" stereotype getting vaccinated while expressing conspiracy theories
+
+* **Keywords and Phrases:** "Karen," "government tracking devices," "Facebook," "forced upon me," "Donald Trump," "government aids," "I beat COVID"
+
+* **Source Credibility/References (explicit or implied):** References Facebook as a source of misinformation, mentions Donald Trump's treatments, positions healthcare worker as credible/reasonable
+
+* **Call to Action (CTA):** Not explicitly clear - appears to be entertainment/satire rather than persuasive content
+
+* **Emotional Language Used:** Dismissive ("whatever"), conspiratorial ("government tracking devices"), victimization ("forced upon me"), sarcastic ("government aids")
+
+* **Misinformation/Disinformation Flags (if present):** Contains conspiracy theories but presents them satirically to mock rather than promote them
+
+#### 2. Image/Video-Based Features:
+* **Visual Setting/Environment:** Professional vaccination site - large indoor space with fluorescent lighting, organized tables, chairs, and medical staff in high-visibility vests. Clinical, official government/medical setting.
+
+* **Characters/Presenters:**
+    * **Identity/Appearance:** First person appears to be a healthcare worker in white coat and medical mask; second person is male with dark hair wearing yellow head covering/scarf
+    * **Demographics (approximate):** Healthcare worker appears to be young adult female; "Karen" character appears to be adult male
+    * **Facial Expressions/Body Language:** Healthcare worker appears professional/patient; "Karen" character shows dismissive expressions, eye-rolling, resistant body language
+
+* **Objects/Props Displayed:** Medical masks, white medical coat, yellow fabric/scarf, vaccination site furniture and equipment
+
+* **On-Screen Text/Graphics:** Yellow text overlays providing context ("karen getting her vaccine," "tracking devices so I don
+
+============================================================
+

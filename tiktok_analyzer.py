@@ -97,13 +97,41 @@ def analyze_video_with_gemini(video_path):
         prompt_parts.append(frame_image)
     
     prompt_text = f"""
-    Based on the provided images (key frames from a video) and the audio transcript, please describe the video's content.
-    Focus on:
-    - What is generally happening in the video.
-    - Identifying any characters, objects, or prominent images.
-    - Noting the main colors used in the scenes.
-    
-    Provide a medium level of detail for these descriptions.
+    Based on the provided images (key frames from a video) and the audio transcript
+
+    Overall Goal: Analyze this TikTok video about anti-vaccination for its multimodal features to understand its messaging, emotional appeal, and potential persuasive techniques.
+
+    Instructions:
+    Please analyze the provided video key frames and audio transcript. For each section below, extract specific details related to the video's content, focusing on elements that contribute to its anti-vaccination message. If a feature is not clearly present, state "Not explicitly clear" or "Absent."
+
+    ### Video Analysis: [Video Filename]
+
+    #### 1. Text-Based Features:
+    * **Core Claims/Arguments:**
+    * **Narrative Type:**
+    * **Keywords and Phrases:**
+    * **Source Credibility/References (explicit or implied):**
+    * **Call to Action (CTA):**
+    * **Emotional Language Used:**
+    * **Misinformation/Disinformation Flags (if present):**
+
+    #### 2. Image/Video-Based Features:
+    * **Visual Setting/Environment:**
+    * **Characters/Presenters:**
+        * **Identity/Appearance:**
+        * **Demographics (approximate):**
+        * **Facial Expressions/Body Language:**
+    * **Objects/Props Displayed:**
+    * **On-Screen Text/Graphics:**
+    * **Visual Tone/Aesthetics:**
+    * **Audience Engagement Cues (visual):**
+
+    #### 3. Audio-Based Features:
+    * **Speaker Tone/Emotion:**
+    * **Pacing and Emphasis:**
+    * **Background Sounds/Music:**
+    * **Vocal Characteristics:**
+    * **Use of Pauses (strategic):**
 
     Here is the audio transcript:
     ---
@@ -136,13 +164,15 @@ def analyze_video_with_gemini(video_path):
 # --- Main execution ---
 if __name__ == "__main__":
     tiktok_videos = [
-        "tiktok_video_1.mp4",
-        "tiktok_video_2.mp4",
+        "tiktok_video_3.mp4",
+        "tiktok_video_4.mp4",
+        "tiktok_video_5.mp4",
+        "tiktok_video_6.mp4",
         
     ]
 
     
-    gemini_output_filename = os.path.join(LLM_RESPONSES_DIR, "gemini_responses.txt")
+    gemini_output_filename = os.path.join(LLM_RESPONSES_DIR, "gemini_responses_medical_video.txt")
 
     
     with open(gemini_output_filename, "w", encoding="utf-8") as f:
