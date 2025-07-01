@@ -1,44 +1,53 @@
 {
-  "video_filename": "anti_vaccine_tiktok_example.mp4",
-  "features": {
-    "text_based": {
-      "narrative_type": "Personal Anecdote",
-      "claim_type_vaccine_harm": true,
-      "claim_type_govt_conspiracy": true,
-      "claim_type_natural_immunity": false,
-      "claim_type_vaccine_ineffective": false,
-      "claim_type_ingredient_scare": true,
-      "source_cited_type": "Personal Experience",
-      "cta_share": true,
-      "cta_research_yourself": true,
-      "cta_join_group": false,
-      "cta_refuse_vaccine": false,
-      "cta_attend_event": false,
-      "emotional_language_used": ["fear", "anger", "urgency", "betrayal"],
-      "misinformation_flags_identified": ["direct unsubstantiated causal link", "distrust in medical professionals", "fear-mongering about ingredients", "hidden truth narrative"]
-    },
-    "image_video_based": {
-      "setting_type": "Indoor Home",
-      "p_appears_medical_professional": false,
-      "p_appears_official_setting": false,
-      "p_presents_documentation": true,
-      "p_facial_expression": "Distressed/Sad",
-      "p_body_language_intensity": "Moderate Gestures",
-      "ost_type": "Call to Action",
-      "ost_emphasis_color": "Red/Orange for urgency/warning",
-      "ost_font_style": "Bold/Aggressive",
-      "visual_quality": "Low/Amateur",
-      "dominant_color_palette": "Neutral"
-    },
-    "audio_based": {
-      "bm_present": true,
-      "bm_mood": "Ominous/Suspenseful",
-      "sfx_present": false,
-      "sfx_type": "Absent",
-      "speaker_tone": "Distressed",
-      "speaker_volume_variation": "High Variation for Emphasis",
-      "use_of_pauses_strategic": true
-    }
-  },
-  "raw_transcript": "They don't want you to know the TRUTH! My child was perfectly healthy, and then after... after that shot... everything changed. He started having seizures, and the doctors, they just dismiss it! This isn't coincidence, people! Look into the ingredients they're injecting! It's poison! We need to protect our kids. Share this if you agree. Don't let them silence us!"
+ "video_filename": "string",
+ "analysis_timestamp": "string (YYYY-MM-DDTHH:MM:SSZ)",
+ "features": {
+   "text_based": {
+     "narrative_type": "string (Personal Anecdote | Scientific 'Debunking' (Pseudoscientific) | Conspiracy Theory | Call to Action | News/Reportage | Product Promotion | Other | Unclear)",
+     "core_claims_keywords": ["array of strings (e.g., 'vaccine harm', 'government conspiracy', 'natural immunity superiority', 'vaccine ineffective', 'ingredient scare')"],
+     "source_cited_type": "string (Personal Experience | Pseudoscientific Expert | Unnamed 'Studies' | Mainstream Media (critically) | Anti-Vax Org | Absent | Unclear)",
+     "cta_type": ["array of strings (e.g., 'share_video', 'do_own_research', 'join_group', 'refuse_vaccine', 'attend_event', 'other_cta', 'no_cta')"],
+     "emotional_language_present": {
+       "fear": "boolean",
+       "anger": "boolean",
+       "treachery_betrayal": "boolean",
+       "urgency": "boolean",
+       "hope_empowerment": "boolean",
+       "sadness_distress": "boolean",
+       "humor_sarcasm": "boolean"
+     },
+     "misinformation_flags": ["array of strings (e.g., 'unsubstantiated causal link', 'distrust in medical professionals', 'fear-mongering re: ingredients', 'hidden truth narrative', 'cherry-picked data', 'ad_hominem', 'straw_man', 'false_dilemma', 'slippery_slope', 'appeal_to_emotion', 'absent')"]
+   },
+   "image_video_based": {
+     "setting_type": "string (Indoor_Home | Outdoor_Public_Space | Official_Medical_Setting | Studio_Professional | Abstract_Graphics_Only | Unclear)",
+     "presenter_cues": {
+       "appears_medical_professional": "boolean",
+       "appears_official_setting": "boolean",
+       "presents_documentation": "boolean"
+     },
+     "presenter_facial_expression": "string (Neutral_Calm | Distressed_Sad | Angry_Frustrated | Enthusiastic_Confident | Other_Mixed | Unclear)",
+     "presenter_body_language_intensity": "string (Calm_Subtle | Moderate_Gestures | Energetic_Agitated_Gestures | Unclear)",
+     "prop_presence": {
+       "medical_items_shown": "boolean",
+       "personal_items_shown": "boolean",
+       "protest_signs_shown": "boolean"
+     },
+     "on_screen_text_type": "string (Call_to_Action | Warning_Alarm | Conspiracy_Keyword | Personal_Message | Data_Statistics | Other | Absent)",
+     "visual_tone_aesthetics": {
+       "visual_quality": "string (High_Production | Medium_Production | Low_Amateur | Grainy_Distorted | Graphics_Only)",
+       "dominant_color_palette": "string (Warm | Cool | Neutral | High_Contrast | Dark_Somber | Mixed | Unclear)",
+       "tiktok_specific_filters_effects": "boolean"
+     },
+     "audience_engagement_visual_cues": ["array of strings (e.g., 'direct_camera_address', 'on_screen_text_emphasis', 'visual_call_to_action', 'emojis_overlays', 'duet_stitch_potential', 'absent')"]
+   },
+   "audio_based": {
+     "background_music_presence": "boolean",
+     "background_music_mood": "string (Ominous_Suspenseful | Sad_Melancholic | Uplifting_Hopeful | Neutral_Ambient | Energetic_Aggressive | Absent | Unclear)",
+     "sound_effects_presence": "boolean",
+     "sound_effects_type": "string (Alarms_Sirens | Dramatic_Thuds_Swooshes | Cheering_Applause | Other | Absent | Unclear)",
+     "speaker_tone_emotion": "string (Neutral | Calm | Urgent | Angry | Distressed | Conspiratorial | Sarcastic | Sympathetic | Other_Mixed | Unclear)",
+     "speaker_volume_variation": "string (Consistent | Moderate_Variation | High_Variation_for_Emphasis | Unclear)",
+     "strategic_pauses_used": "boolean"
+   }
+ }
 }
