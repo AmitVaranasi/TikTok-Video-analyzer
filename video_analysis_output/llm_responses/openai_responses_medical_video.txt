@@ -9,72 +9,61 @@ VIDEO: tiktok_video_3.mp4
  First little bath. Well, she's shaking. Look at those chubby arms. Hmm. Her tiny bandage from her vaccine. Oh, under leg. Yeah. She took that like a champ. She didn't even cry. She went. Yes, it went flinch or cry. Do you have an antibiotic? This is no, I want breast milk and now face just opening. She's like, I want it. You want some milk? She keeps opening.
 
 --- OpenAI AI Description ---
-### Video Analysis
-
-#### 1. Text-Based Features:
-* **Core Claims/Arguments:**
-  The video suggests a link between vaccination and the baby's death, implying regret over vaccinating.
-
-* **Narrative Type:**
-  Personal anecdote, expressing regret and loss.
-
-* **Keywords and Phrases:**
-  - "I wish we didn’t vaccinate her now"
-  - "passed at 3 days old"
-
-* **Source Credibility/References (explicit or implied):**
-  The claim is presented as a personal experience, but no external sources or expert references are provided.
-
-* **Call to Action (CTA):**
-  Implicit suggestion against vaccination through emotional appeal.
-
-* **Emotional Language Used:**
-  Use of crying emojis and phrases like "I wish" and "passed" to evoke sympathy and regret.
-
-* **Misinformation/Disinformation Flags (if present):**
-  The implication that vaccination caused the death without evidence.
-
-#### 2. Image/Video-Based Features:
-* **Visual Setting/Environment:**
-  A hospital or medical setting, indicated by medical equipment and furnishings.
-
-* **Characters/Presenters:**
-  - **Identity/Appearance:** A newborn baby.
-  - **Demographics (approximate):** Likely a newborn, no specific details on parents or caregivers.
-
-* **Facial Expressions/Body Language:**
-  The baby is lying down, appearing calm.
-
-* **Objects/Props Displayed:**
-  - Medical equipment
-  - Diaper, baby clothing
-
-* **On-Screen Text/Graphics:**
-  Text overlay expressing regret about vaccination and death.
-
-* **Visual Tone/Aesthetics:**
-  Somber and emotional, aiming to evoke sympathy.
-
-* **Audience Engagement Cues (visual):**
-  Emotional appeal through imagery of a newborn and text expressing regret.
-
-#### 3. Audio-Based Features:
-* **Speaker Tone/Emotion:**
-  Not explicitly clear from the transcript alone.
-
-* **Pacing and Emphasis:**
-  Transcript suggests a casual, observational tone during the described event.
-
-* **Background Sounds/Music:**
-  Not explicitly clear or mentioned in the transcript.
-
-* **Vocal Characteristics:**
-  A conversational and tender tone, implied from the personal remarks.
-
-* **Use of Pauses (strategic):**
-  Not explicitly clear from the transcript. 
-
-The video uses emotional appeal and personal narrative to convey an anti-vaccination message, despite lacking scientific evidence or
+```json
+{
+  "video_filename": "unknown",
+  "analysis_timestamp": "2023-10-01T12:00:00Z",
+  "features": {
+    "text_based": {
+      "narrative_type": "Personal Anecdote",
+      "core_claims_keywords": ["vaccine harm"],
+      "source_cited_type": "Personal Experience",
+      "cta_type": ["no_cta"],
+      "emotional_language_present": {
+        "fear": false,
+        "anger": false,
+        "treachery_betrayal": false,
+        "urgency": false,
+        "hope_empowerment": false,
+        "sadness_distress": true,
+        "humor_sarcasm": false
+      },
+      "misinformation_flags": ["unsubstantiated causal link", "appeal_to_emotion"]
+    },
+    "image_video_based": {
+      "setting_type": "Official_Medical_Setting",
+      "presenter_cues": {
+        "appears_medical_professional": false,
+        "appears_official_setting": true,
+        "presents_documentation": false
+      },
+      "presenter_facial_expression": "Unclear",
+      "presenter_body_language_intensity": "Unclear",
+      "prop_presence": {
+        "medical_items_shown": true,
+        "personal_items_shown": false,
+        "protest_signs_shown": false
+      },
+      "on_screen_text_type": "Personal_Message",
+      "visual_tone_aesthetics": {
+        "visual_quality": "Medium_Production",
+        "dominant_color_palette": "Warm",
+        "tiktok_specific_filters_effects": false
+      },
+      "audience_engagement_visual_cues": ["emojis_overlays", "on_screen_text_emphasis"]
+    },
+    "audio_based": {
+      "background_music_presence": false,
+      "background_music_mood": "Absent",
+      "sound_effects_presence": false,
+      "sound_effects_type": "Absent",
+      "speaker_tone_emotion": "Distressed",
+      "speaker_volume_variation": "Consistent",
+      "strategic_pauses_used": false
+    }
+  }
+}
+```
 
 ============================================================
 
@@ -87,73 +76,61 @@ VIDEO: tiktok_video_4.mp4
  As a very proud, loud and proud member of the Antivacs slash Novacs slash do your research before you Vacs mom community I have a hot take for you guys because I am also a member of the infant law community. Since bringing my story of my son passing away to social media the amount of and I say this you guys because again I am part of this community I wholeheartedly believe in not vaccinating and or doing your research before vaccinating delaying vaccinations like anything that goes against just pumping your kid full of all the shots and vaccinations right as soon as they are born I am full wholeheartedly believe in that and none of my children have been vaccinated including myself has never been vaccinated so I just want to let people know because I share the story of my son passing away from SIDS and I talk about that on this page a lot and the amount of anti-vaccine mothers and community members that want to run to my comments and leave a comment that you guys you're just you're not doing it right okay first off it doesn't pertain to my situation but second off if it did I would just like to let you know you guys are doing and going about trying to spread this information the complete wrong way okay you coming to somebody's post who is talking about their child dying of unknown causes and saying please don't vaccinate your next baby please as if you're insinuating that you know that the child died from vaccinations went for some not at all true it's not at all true and you have no way of knowing that because it's not your child so again I am a proud anti-vaxxer okay and I believe that you should also do your research and hopefully become one yourself but that is not the way that we need to be spreading the word to other moms and I completely understand why they are so pissed off and don't like us okay because I get these comments on my own page being a mom who doesn't vaccinate her kids I get the comments from people who are telling me oh please that poor baby don't vaccinate the next one because it's your fault that they died because you vaccinated the first one that's what you sound like that's what you sound like on a mother who's child died you're commenting something like that on her page okay it's completely insensitive and it is the wrong way to go about doing things okay don't don't don't do that the right way and the way that I as a lost mom and anti-vaxxer mom I'm telling you you should go about doing it hey mama I can't imagine what you've gone through here's some information that I've found to ease my mind and some of the medical decisions I make surrounding my babies at such a young age X Y and Z here is where I found the information X Y and Z I think it would be great if you went and read about it and if it was something that interested you I would love to put to offer you more information that's how we need to go about it you guys don't piss people off by acting like you know better and acting like it's their fault for choosing to vaccinate because that's not the right way to get moms to try and do their research okay don't ever fault and or guilt mothers because of accidents has seds is unknown that's why they call it sudden infant death so you cannot tell me every case is linked to vaccines especially mine because my son was unvaccinated so as a member of both loss and anti-vaxxed communities okay I'm just begging us all to take a little bit more thought into how we put this information out onto people's pages and just remember that somebody else is reading that comment and it might be completely read the wrong way than what you have intended it so do more than just be nice and kind and respectful about it if anything okay all we want is you know we like to learn but we don't want to feel shamed and we definitely don't want to feel like you're trying to tell us that we did something wrong which resulted in the death of our children because that is absolutely not going to get me on your team absolutely not so just some food for thought
 
 --- OpenAI AI Description ---
-### Video Analysis
-
-#### 1. Text-Based Features:
-
-* **Core Claims/Arguments:**
-  - The speaker is a member of both anti-vaccine and loss communities.
-  - Emphasizes the importance of doing research before vaccinating.
-  - Criticizes the approach of blaming parents for vaccinating, especially in the context of losing a child to SIDS.
-
-* **Narrative Type:**
-  - Personal testimonial and advocacy.
-
-* **Keywords and Phrases:**
-  - “Anti-vacs,” “do your research,” “loss mom,” “SIDS,” “insensitive,” “wrong way.”
-
-* **Source Credibility/References (explicit or implied):**
-  - Personal experience is used as a credibility source.
-  - No external sources or references are provided.
-
-* **Call to Action (CTA):**
-  - Encourages anti-vaccine advocates to change their approach to sharing information by being respectful and sensitive.
-
-* **Emotional Language Used:**
-  - “Proud,” “loud,” “wholeheartedly,” “pissed off,” “insensitive.”
-
-* **Misinformation/Disinformation Flags (if present):**
-  - The use of personal testimony in place of scientific evidence regarding vaccines.
-
-#### 2. Image/Video-Based Features:
-
-* **Visual Setting/Environment:**
-  - The speaker is in a car, creating an informal and personal setting.
-
-* **Characters/Presenters:**
-  - Single presenter, a woman.
-
-  * **Identity/Appearance:**
-    - Casual attire, long hair, minimal visible makeup.
-
-  * **Demographics (approximate):**
-    - Young adult female.
-
-  * **Facial Expressions/Body Language:**
-    - Expressive, using hand gestures, appears earnest and passionate.
-
-* **Objects/Props Displayed:**
-  - Car interior, wrist accessories (bracelets).
-
-* **On-Screen Text/Graphics:**
-  - Text overlay aligning with her spoken message.
-
-* **Visual Tone/Aesthetics:**
-  - Casual, relatable tone.
-
-* **Audience Engagement Cues (visual):**
-  - Direct eye contact with the camera, engaging hand movements.
-
-#### 3. Audio-Based Features:
-
-* **Speaker Tone/Emotion:**
-  - Passionate, assertive, emotionally charged.
-
-* **Pacing and Emphasis:**
-  - Moderate pace with emphasis on key points about respect and sensitivity.
-
-* **Background Sounds/Music:**
- 
+```json
+{
+  "video_filename": "tiktok_video_analysis",
+  "analysis_timestamp": "2023-10-16T12:00:00Z",
+  "features": {
+    "text_based": {
+      "narrative_type": "Personal Anecdote",
+      "core_claims_keywords": ["vaccine harm"],
+      "source_cited_type": "Personal Experience",
+      "cta_type": ["do_own_research"],
+      "emotional_language_present": {
+        "fear": false,
+        "anger": false,
+        "treachery_betrayal": false,
+        "urgency": false,
+        "hope_empowerment": false,
+        "sadness_distress": false,
+        "humor_sarcasm": false
+      },
+      "misinformation_flags": ["unsubstantiated causal link"]
+    },
+    "image_video_based": {
+      "setting_type": "Indoor_Home",
+      "presenter_cues": {
+        "appears_medical_professional": false,
+        "appears_official_setting": false,
+        "presents_documentation": false
+      },
+      "presenter_facial_expression": "Neutral_Calm",
+      "presenter_body_language_intensity": "Calm_Subtle",
+      "prop_presence": {
+        "medical_items_shown": false,
+        "personal_items_shown": false,
+        "protest_signs_shown": false
+      },
+      "on_screen_text_type": "Personal_Message",
+      "visual_tone_aesthetics": {
+        "visual_quality": "Medium_Production",
+        "dominant_color_palette": "Neutral",
+        "tiktok_specific_filters_effects": false
+      },
+      "audience_engagement_visual_cues": ["direct_camera_address"]
+    },
+    "audio_based": {
+      "background_music_presence": false,
+      "background_music_mood": "Absent",
+      "sound_effects_presence": false,
+      "sound_effects_type": "Absent",
+      "speaker_tone_emotion": "Neutral",
+      "speaker_volume_variation": "Consistent",
+      "strategic_pauses_used": false
+    }
+  }
+}
+```
 
 ============================================================
 
@@ -166,68 +143,61 @@ VIDEO: tiktok_video_5.mp4
  RFK Jr. just revealed to members of Congress that he wants every American to be wearing a government bag menaculableized like a health tracker within the next four years. Yeah and this is from the same guy who's been scaring people off of vaccines, masks and even fucking Tylenol because apparently the government can't be trusted with the health of your body. What he wants is for the Department of Health and Human Services to push this plan with one of the biggest advertising campaigns in history. Mr. Evil Bill Gates tracking ship in the vaccine now wants to strap a federally sponsored fit bit on your ass. Does he even listen to himself speak? Does he know who his supporters are? Oh and by the way that people helping him design this plan they've also got financial sakes in the wearable tech industry. So when Bobby here is talking about health freedom what he really means is his friends cashing in while you're uploading your blood sugar to the cloud. You don't get to run for president or help run in office on paranoid delusions and they turn around and tell everyone to wear a government endorsement mood ring that sends out an alert if you start thinking about protesting to a party.
 
 --- OpenAI AI Description ---
-### Video Analysis
-
-#### 1. Text-Based Features:
-* **Core Claims/Arguments:**
-  - Criticizes RFK Jr. for allegedly promoting government-controlled health trackers.
-  - Points out perceived hypocrisy in scaring people about vaccines, yet supporting health trackers.
-
-* **Narrative Type:**
-  - Critique and satire with a focus on perceived contradictions.
-
-* **Keywords and Phrases:**
-  - "Government bag menaculableized"
-  - "Advertising campaigns in history"
-  - "Health freedom"
-  - "Uploading your blood sugar"
-
-* **Source Credibility/References (explicit or implied):**
-  - References RFK Jr. and his alleged statements.
-  - Implies insider knowledge about health policies and technologies.
-
-* **Call to Action (CTA):**
-  - Encourages skepticism about government health measures.
-
-* **Emotional Language Used:**
-  - Use of sarcasm ("Mr. Evil Bill Gates")
-  - Strong language ("fucking Tylenol")
-  - Fear-inducing scenarios ("uploading your blood sugar")
-
-* **Misinformation/Disinformation Flags (if present):**
-  - Unsupported claims about RFK Jr.’s intentions and health policies.
-  - Conflates various health technologies and intentions without evidence.
-
-#### 2. Image/Video-Based Features:
-* **Visual Setting/Environment:**
-  - Inside a vehicle, possibly a truck, suggesting a casual, everyday setting.
-
-* **Characters/Presenters:**
-  * **Identity/Appearance:**
-    - Male presenter wearing a reflective safety vest, casual attire.
-  * **Demographics (approximate):**
-    - Young to middle-aged adult male.
-  * **Facial Expressions/Body Language:**
-    - Calm, slightly sarcastic demeanor; relaxed posture.
-
-* **Objects/Props Displayed:**
-  - Vehicle interior, sunglasses on head, car keys.
-
-* **On-Screen Text/Graphics:**
-  - Key phrases emphasize points (e.g., "Who's been scaring people off").
-
-* **Visual Tone/Aesthetics:**
-  - Informal, relatable with a direct-to-camera perspective.
-
-* **Audience Engagement Cues (visual):**
-  - Direct eye contact with the camera, conversational tone.
-
-#### 3. Audio-Based Features:
-* **Speaker Tone/Emotion:**
-  - Sarcastic and critical, with a hint of disbelief.
-
-* **Pacing and Emphasis:**
-  - Steady
+```json
+{
+  "video_filename": "unknown",
+  "analysis_timestamp": "2023-10-07T12:00:00Z",
+  "features": {
+    "text_based": {
+      "narrative_type": "Conspiracy Theory",
+      "core_claims_keywords": ["scaring people", "advertising campaigns", "uploading blood"],
+      "source_cited_type": "Absent",
+      "cta_type": ["no_cta"],
+      "emotional_language_present": {
+        "fear": true,
+        "anger": false,
+        "treachery_betrayal": false,
+        "urgency": false,
+        "hope_empowerment": false,
+        "sadness_distress": false,
+        "humor_sarcasm": false
+      },
+      "misinformation_flags": ["fear-mongering re: ingredients", "hidden truth narrative"]
+    },
+    "image_video_based": {
+      "setting_type": "Indoor_Home",
+      "presenter_cues": {
+        "appears_medical_professional": false,
+        "appears_official_setting": false,
+        "presents_documentation": false
+      },
+      "presenter_facial_expression": "Neutral_Calm",
+      "presenter_body_language_intensity": "Calm_Subtle",
+      "prop_presence": {
+        "medical_items_shown": false,
+        "personal_items_shown": false,
+        "protest_signs_shown": false
+      },
+      "on_screen_text_type": "Warning_Alarm",
+      "visual_tone_aesthetics": {
+        "visual_quality": "Low_Amateur",
+        "dominant_color_palette": "Neutral",
+        "tiktok_specific_filters_effects": false
+      },
+      "audience_engagement_visual_cues": ["on_screen_text_emphasis", "direct_camera_address"]
+    },
+    "audio_based": {
+      "background_music_presence": false,
+      "background_music_mood": "Absent",
+      "sound_effects_presence": false,
+      "sound_effects_type": "Absent",
+      "speaker_tone_emotion": "Conspiratorial",
+      "speaker_volume_variation": "Consistent",
+      "strategic_pauses_used": false
+    }
+  }
+}
+```
 
 ============================================================
 
@@ -240,66 +210,61 @@ VIDEO: tiktok_video_6.mp4
  Karen getting her vaccine. Hi there. So my friends told me to ask for the Pfizer. Can I get some of that please? Well, you're in luck. That's the one I have. Okay, great. And I also heard that some of them have the government tracking devices so I don't want any with that in it. Okay, good. Because that's none of them. Sweetheart, are you serious? Have you been on Facebook? Okay, so did you want the vaccine or what are we doing here? Well, of course, I don't want it. It's being forced upon me. Kind of like jury duty. Ma'am, if you don't want it, I don't have to give it to you. Is that a trick saying you people can tase me when I try to leave? What? Oh, nothing. That's just a little stay-at-home mom humor. And I also want to get those medicines that Donald Trump had. I heard those are good too. Oh, I'm sorry, ma'am. We don't actually have access to that. Oh, whatever. All right, inject me with the government aids. Go ahead. There you go. Let's go ahead and schedule your second shot. I beat COVID. Oh, ma'am, please put your mask back on. We still have to... Oh, my friends so meet the second vaccine to scan.
 
 --- OpenAI AI Description ---
-### Video Analysis
-
-#### 1. Text-Based Features:
-* **Core Claims/Arguments:**
-  - The video humorously portrays a character with anti-vaccination sentiments, highlighting skepticism about government tracking devices and preferences for specific COVID treatments.
-
-* **Narrative Type:**
-  - Satirical and comedic narrative, using humor to critique anti-vaccination beliefs.
-
-* **Keywords and Phrases:**
-  - "government tracking devices," "Facebook," "Donald Trump," "government aids."
-
-* **Source Credibility/References (explicit or implied):**
-  - Implied critique of misinformation spread online, particularly through platforms like Facebook.
-
-* **Call to Action (CTA):**
-  - Not explicitly clear.
-
-* **Emotional Language Used:**
-  - Sarcasm and humor used to convey skepticism and critique baseless fears.
-
-* **Misinformation/Disinformation Flags (if present):**
-  - References to "government tracking devices" and informal remedies highlight common misinformation.
-
-#### 2. Image/Video-Based Features:
-* **Visual Setting/Environment:**
-  - A makeshift vaccination center with tables and chairs, suggesting an official and sterile setting.
-
-* **Characters/Presenters:**
-  - **Identity/Appearance:**
-    - Main character wearing a mask and distinct yellow head covering, potentially portraying a stereotypical “Karen” figure.
-  - **Demographics (approximate):**
-    - Adult, presumed female based on context.
-  - **Facial Expressions/Body Language:**
-    - Exaggerated expressions, eye-rolling, and dismissive gestures convey skepticism and defiance.
-
-* **Objects/Props Displayed:**
-  - Mask, yellow scarf, and casual clothing.
-
-* **On-Screen Text/Graphics:**
-  - Captions highlighting key phrases like "Karen getting her vaccine."
-
-* **Visual Tone/Aesthetics:**
-  - Bright lighting with a focus on the comedic portrayal of characters.
-
-* **Audience Engagement Cues (visual):**
-  - Humorous and exaggerated gestures meant to engage and entertain viewers through satire.
-
-#### 3. Audio-Based Features:
-* **Speaker Tone/Emotion:**
-  - Sarcastic and humorous tone intended to mock misinformation.
-
-* **Pacing and Emphasis:**
-  - Quick pacing with emphasis on sarcastic remarks and punchlines.
-
-* **Background Sounds/Music:**
-  - Not explicitly clear.
-
-* **Vocal Characteristics:**
-  - Exaggerated, playful
+```json
+{
+  "video_filename": "example_tiktok_video.mp4",
+  "analysis_timestamp": "2023-10-05T12:00:00Z",
+  "features": {
+    "text_based": {
+      "narrative_type": "Conspiracy Theory",
+      "core_claims_keywords": ["tracking devices", "vaccine harm"],
+      "source_cited_type": "Absent",
+      "cta_type": ["refuse_vaccine"],
+      "emotional_language_present": {
+        "fear": true,
+        "anger": false,
+        "treachery_betrayal": false,
+        "urgency": false,
+        "hope_empowerment": false,
+        "sadness_distress": false,
+        "humor_sarcasm": true
+      },
+      "misinformation_flags": ["unsubstantiated causal link", "fear-mongering re: ingredients", "hidden truth narrative"]
+    },
+    "image_video_based": {
+      "setting_type": "Official_Medical_Setting",
+      "presenter_cues": {
+        "appears_medical_professional": false,
+        "appears_official_setting": true,
+        "presents_documentation": false
+      },
+      "presenter_facial_expression": "Other_Mixed",
+      "presenter_body_language_intensity": "Energetic_Agitated_Gestures",
+      "prop_presence": {
+        "medical_items_shown": true,
+        "personal_items_shown": false,
+        "protest_signs_shown": false
+      },
+      "on_screen_text_type": "Conspiracy_Keyword",
+      "visual_tone_aesthetics": {
+        "visual_quality": "Medium_Production",
+        "dominant_color_palette": "Neutral",
+        "tiktok_specific_filters_effects": false
+      },
+      "audience_engagement_visual_cues": ["on_screen_text_emphasis"]
+    },
+    "audio_based": {
+      "background_music_presence": false,
+      "background_music_mood": "Absent",
+      "sound_effects_presence": false,
+      "sound_effects_type": "Absent",
+      "speaker_tone_emotion": "Sarcastic",
+      "speaker_volume_variation": "Moderate_Variation",
+      "strategic_pauses_used": false
+    }
+  }
+}
+```
 
 ============================================================
 

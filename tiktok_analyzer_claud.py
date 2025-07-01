@@ -136,47 +136,80 @@ def analyze_video_with_claude(video_path):
         )
     
     
-    prompt_text = f"""
-    Based on the provided images (key frames from a video) and the audio transcript, please describe the video's content.
-    
-    Overall Goal: Analyze this TikTok video about anti-vaccination for its multimodal features to understand its messaging, emotional appeal, and potential persuasive techniques.
+    prompt_text = """
 
-    Instructions:
-    Please analyze the provided video key frames and audio transcript. For each section below, extract specific details related to the video's content, focusing on elements that contribute to its anti-vaccination message. If a feature is not clearly present, state "Not explicitly clear" or "Absent."
+    **Role:** You are an expert social media content analyst specializing in health communication and misinformation detection. Your task is to extract specific, quantifiable features from TikTok videos based on visual (keyframes) and auditory (transcript) information.
 
-    ### Video Analysis: [Video Filename]
+**Instruction:**
+Analyze the provided video content (keyframes and audio transcript) thoroughly. Your goal is to identify and categorize the salient features listed below.
+**You MUST output your analysis as a single JSON object.**
+Adhere strictly to the provided JSON structure, including all keys and their specified data types (boolean, string, array of strings).
+For categorical features, choose *exactly one* from the provided options. If a feature is not applicable or clearly discernible, use `null` for strings/categories or `false` for boolean flags.
 
-    #### 1. Text-Based Features:
-    * **Core Claims/Arguments:**
-    * **Narrative Type:**
-    * **Keywords and Phrases:**
-    * **Source Credibility/References (explicit or implied):**
-    * **Call to Action (CTA):**
-    * **Emotional Language Used:**
-    * **Misinformation/Disinformation Flags (if present):**
-
-    #### 2. Image/Video-Based Features:
-    * **Visual Setting/Environment:**
-    * **Characters/Presenters:**
-        * **Identity/Appearance:**
-        * **Demographics (approximate):**
-        * **Facial Expressions/Body Language:**
-    * **Objects/Props Displayed:**
-    * **On-Screen Text/Graphics:**
-    * **Visual Tone/Aesthetics:**
-    * **Audience Engagement Cues (visual):**
-
-    #### 3. Audio-Based Features:
-    * **Speaker Tone/Emotion:**
-    * **Pacing and Emphasis:**
-    * **Background Sounds/Music:**
-    * **Vocal Characteristics:**
-    * **Use of Pauses (strategic):**
-
-    Here is the audio transcript:
-    ---
+**Input Data:**
+* **Video Key Frames:** [Will be provided as image inputs to the LLM]
+* **Audio Transcript:**
+    ```
     {transcript}
-    ---
+    ```
+
+**Output JSON Schema / Structure to Adhere To:**
+
+```json
+{
+  "video_filename": "string",
+  "analysis_timestamp": "string (YYYY-MM-DDTHH:MM:SSZ)",
+  "features": {
+    "text_based": {
+      "narrative_type": "string (Personal Anecdote | Scientific 'Debunking' (Pseudoscientific) | Conspiracy Theory | Call to Action | News/Reportage | Product Promotion | Other | Unclear)",
+      "core_claims_keywords": ["array of strings (e.g., 'vaccine harm', 'government conspiracy', 'natural immunity superiority', 'vaccine ineffective', 'ingredient scare')"],
+      "source_cited_type": "string (Personal Experience | Pseudoscientific Expert | Unnamed 'Studies' | Mainstream Media (critically) | Anti-Vax Org | Absent | Unclear)",
+      "cta_type": ["array of strings (e.g., 'share_video', 'do_own_research', 'join_group', 'refuse_vaccine', 'attend_event', 'other_cta', 'no_cta')"],
+      "emotional_language_present": {
+        "fear": "boolean",
+        "anger": "boolean",
+        "treachery_betrayal": "boolean",
+        "urgency": "boolean",
+        "hope_empowerment": "boolean",
+        "sadness_distress": "boolean",
+        "humor_sarcasm": "boolean"
+      },
+      "misinformation_flags": ["array of strings (e.g., 'unsubstantiated causal link', 'distrust in medical professionals', 'fear-mongering re: ingredients', 'hidden truth narrative', 'cherry-picked data', 'ad_hominem', 'straw_man', 'false_dilemma', 'slippery_slope', 'appeal_to_emotion', 'absent')"]
+    },
+    "image_video_based": {
+      "setting_type": "string (Indoor_Home | Outdoor_Public_Space | Official_Medical_Setting | Studio_Professional | Abstract_Graphics_Only | Unclear)",
+      "presenter_cues": {
+        "appears_medical_professional": "boolean",
+        "appears_official_setting": "boolean",
+        "presents_documentation": "boolean"
+      },
+      "presenter_facial_expression": "string (Neutral_Calm | Distressed_Sad | Angry_Frustrated | Enthusiastic_Confident | Other_Mixed | Unclear)",
+      "presenter_body_language_intensity": "string (Calm_Subtle | Moderate_Gestures | Energetic_Agitated_Gestures | Unclear)",
+      "prop_presence": {
+        "medical_items_shown": "boolean",
+        "personal_items_shown": "boolean",
+        "protest_signs_shown": "boolean"
+      },
+      "on_screen_text_type": "string (Call_to_Action | Warning_Alarm | Conspiracy_Keyword | Personal_Message | Data_Statistics | Other | Absent)",
+      "visual_tone_aesthetics": {
+        "visual_quality": "string (High_Production | Medium_Production | Low_Amateur | Grainy_Distorted | Graphics_Only)",
+        "dominant_color_palette": "string (Warm | Cool | Neutral | High_Contrast | Dark_Somber | Mixed | Unclear)",
+        "tiktok_specific_filters_effects": "boolean"
+      },
+      "audience_engagement_visual_cues": ["array of strings (e.g., 'direct_camera_address', 'on_screen_text_emphasis', 'visual_call_to_action', 'emojis_overlays', 'duet_stitch_potential', 'absent')"]
+    },
+    "audio_based": {
+      "background_music_presence": "boolean",
+      "background_music_mood": "string (Ominous_Suspenseful | Sad_Melancholic | Uplifting_Hopeful | Neutral_Ambient | Energetic_Aggressive | Absent | Unclear)",
+      "sound_effects_presence": "boolean",
+      "sound_effects_type": "string (Alarms_Sirens | Dramatic_Thuds_Swooshes | Cheering_Applause | Other | Absent | Unclear)",
+      "speaker_tone_emotion": "string (Neutral | Calm | Urgent | Angry | Distressed | Conspiratorial | Sarcastic | Sympathetic | Other_Mixed | Unclear)",
+      "speaker_volume_variation": "string (Consistent | Moderate_Variation | High_Variation_for_Emphasis | Unclear)",
+      "strategic_pauses_used": "boolean"
+    }
+  }
+}
+
     """
     messages_content.append({"type": "text", "text": prompt_text})
 
