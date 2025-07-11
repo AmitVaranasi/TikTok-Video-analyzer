@@ -1,0 +1,71 @@
+{
+    "video_filename": "string",
+    "analysis_timestamp": "string (YYYY-MM-DDTHH:MM:SSZ)",
+    "features": {
+      "demographics": {
+        "age_group": "string (Child_Adolescent | Young_Adult_18-29 | Adult_30-49 | Middle_Adult_50-64 | Senior_65+ | Unclear)",
+        "gender_identity": "string (Female | Male | Non_Binary | Prefer_Not_To_Say | Unclear)",
+        "race_ethnicity": ["array of strings (e.g., 'White', 'Black_African_American', 'Hispanic_Latino', 'Asian', 'Indigenous_Native', 'Mixed_Descent', 'Other', 'Unclear')"]
+      },
+      "use_context": {
+        "prescribed_vs_voluntary_use": "string (Prescribed_by_Doctor | Self_Medication_Voluntary | Obtained_Illicitly | Unclear)",
+        "mentioned_stopping_drug": "boolean"
+      },
+      "text_based": {
+        "drug_name_mentioned": ["array of strings (e.g., 'Prozac', 'sertraline', 'Wellbutrin')"],
+        "antidepressant_class": "string (SSRI | SNRI | TCA | MAOI | Atypical Antidepressant | Serotonin Modulator | NDRI | NaSSA | Other_Unclassified | Unclear)",
+        "dosage_mentioned": ["array of strings (e.g., '20mg', '100mg daily', 'once a day')"],
+        "reason_for_starting_keywords": ["array of strings (e.g., 'depression', 'anxiety', 'panic attacks', 'OCD', 'PTSD', 'bipolar', 'chronic pain', 'insomnia', 'doctor recommended', 'therapy failed')"],
+        "duration_of_use": "string (e.g., '6 months', '2 years', 'just started', 'on and off')",
+        "efficacy_assessment": "string (Highly Positive | Moderately Positive | Neutral_Mixed | Moderately Negative | Highly Negative | Unclear)",
+        "side_effects_reported": "boolean",
+        "side_effects_mentioned": ["array of strings (e.g., 'nausea', 'headaches', 'weight gain', 'sexual dysfunction', 'brain zaps', 'emotional blunting', 'insomnia', 'fatigue', 'none reported')"],
+        "side_effect_severity": "string (Mild | Moderate | Severe | Not Applicable | Unclear)",
+        "withdrawal_symptoms_mentioned": ["array of strings (e.g., 'brain zaps', 'dizziness', 'irritability', 'flu-like', 'none reported')"],
+        "impact_on_daily_life_keywords": ["array of strings (e.g., 'able to work', 'improved relationships', 'more energy', 'socialized more', 'still struggling', 'no change')"],
+        "general_opinion_on_antidepressants": "string (Pro_Medication | Anti_Medication | Nuanced_Mixed | Neutral | Unclear)",
+        "co_medication_or_therapy_mentioned": ["array of strings (e.g., 'therapy', 'another antidepressant', 'benzos', 'supplements', 'none mentioned')"],
+        "emotional_language_present": {
+          "relief_hope": "boolean",
+          "frustration_anger": "boolean",
+          "sadness_distress": "boolean",
+          "gratitude_appreciation": "boolean",
+          "fear_anxiety": "boolean",
+          "neutral_descriptive": "boolean"
+        },
+        "authenticity_text_cues": ["array of strings (e.g., 'specific_personal_anecdotes', 'self_correction_hesitation', 'natural_conversational_flow', 'vague_general_statements', 'scripted_sounding_phrases', 'promotional_language')"]
+      },
+      "image_video_based": {
+        "setting_type": "string (Indoor_Home | Outdoor_Personal_Space | Generic_Indoor_Background | Studio_Professional | Vehicle | Unclear)",
+        "presenter_appearance_cues": {
+          "groomed_appearance": "boolean",
+          "disheveled_appearance": "boolean",
+          "no_person_visible": "boolean"
+        },
+        "presenter_facial_expression": "string (Neutral_Calm | Distressed_Sad | Expressive_Positive | Expressive_Negative | Mixed_Varied | Flat_Blunted | Unclear | No_Person)",
+        "presenter_eye_contact": "string (Direct_Consistent | Direct_Intermittent | Averted_Frequent | Averted_Consistent | Unclear | No_Person)",
+        "presenter_body_language_intensity": "string (Calm_Subtle | Moderate_Gestures | Energetic_Animated | Fidgeting_Restless | Stiff_Limited | Unclear | No_Person)",
+        "prop_presence": {
+          "personal_items_shown": "boolean",
+          "medical_items_shown": "boolean (e.g., pill bottle, prescription)",
+          "promotional_items_shown": "boolean",
+          "no_relevant_props": "boolean"
+        },
+        "visual_quality_production": "string (High_Professional | Medium_Good | Low_Amateur | UGC_Standard | Graphics_Only | Unclear)",
+        "on_screen_text_type": "string (Personal_Annotation | Drug_Info_Summary | Call_to_Action | Promotional_Text | Disclaimers | Other | Absent)",
+        "authenticity_visual_cues": ["array of strings (e.g., 'natural_setting', 'unpolished_editing', 'overly_polished_editing', 'staged_background', 'visible_disclaimers_of_sponsorship')"]
+      },
+      "audio_based": {
+        "background_music_presence": "boolean",
+        "background_music_mood": "string (Uplifting_Hopeful | Calming_Soothing | Sad_Melancholic | Ominous_Dramatic | Neutral_Ambient | Absent | Unclear)",
+        "sound_effects_presence": "boolean",
+        "sound_effects_type": "string (Emotive_Enhancers | Promotional_Jingles | Distracting_Noises | Other | Absent | Unclear)",
+        "speaker_tone_emotion": "string (Calm_Even | Emotional_Sad | Emotional_Happy | Emotional_Frustrated | Anxious_Urgent | Monotone_Flat | Unclear)",
+        "speaker_volume_variation": "string (Consistent | Moderate_Emphasis | High_Dramatic_Variation | Whispering | Unclear)",
+        "speech_rate": "string (Slow_Deliberate | Average | Fast_Rapid | Unclear)",
+        "strategic_pauses_used": "boolean",
+        "vocal_fillers_present": "boolean",
+        "authenticity_audio_cues": ["array of strings (e.g., 'natural_speech_hesitations', 'emotional_vocal_nuance', 'overly_perfect_diction', 'teleprompter_reading_tone', 'echo_reverb_suggesting_studio')"]
+      }
+    }
+  }
