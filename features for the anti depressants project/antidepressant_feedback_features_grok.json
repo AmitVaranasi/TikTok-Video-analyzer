@@ -1,0 +1,81 @@
+{
+  "video_filename": "string",
+  "analysis_timestamp": "string (YYYY-MM-DDTHH:MM:SSZ)",
+  "features": {
+    "text_based": {
+      "narrative_type": "string (Personal Experience | Informational | Promotional | Testimonial | Other | Unclear)",
+      "demographic_information": {
+        "gender": "string (Male | Female | Non-Binary | Other | Unknown)",
+        "age_group": "string (Adolescent | Young Adult | Adult | Older Adult | Unknown)"
+      },
+      "drug_information": {
+        "drug_name": "string (e.g., 'sertraline', 'fluoxetine', 'unknown')",
+        "drug_class": "string (SSRI | SNRI | TCA | MAOI | Atypical | Other | Unknown)",
+        "dosage": "string (e.g., '50 mg daily', 'unknown')",
+        "administration_details": "string (e.g., 'with food', 'at night', 'unknown')",
+        "use_type": "string (Prescribed | Voluntary | Unknown)"
+      },
+      "reasons_for_use": ["array of strings (e.g., 'depression', 'anxiety', 'PTSD', 'chronic pain', 'situational trigger: divorce', 'unknown')"],
+      "side_effects_reported": [
+        {
+          "side_effect": "string (e.g., 'nausea', 'dizziness', 'weight gain', 'none')",
+          "severity": "string (e.g., 'mild', 'moderate', 'severe', 'unknown')",
+          "duration": "string (e.g., 'first week', 'ongoing', 'unknown')",
+          "is_known_side_effect": "boolean"
+        }
+      ],
+      "efficacy_perception": "string (Positive | Neutral | Negative | Mixed | Unclear)",
+      "discontinuation": {
+        "stopped_medication": "boolean",
+        "withdrawal_symptoms_reported": [
+          {
+            "symptom": "string (e.g., 'brain zaps', 'mood swings', 'none')",
+            "severity": "string (e.g., 'mild', 'moderate', 'severe', 'unknown')"
+          }
+        ]
+      },
+      "emotional_language_present": {
+        "hope_empowerment": "boolean",
+        "sadness_distress": "boolean",
+        "frustration_anger": "boolean",
+        "calm_acceptance": "boolean",
+        "numbness_blunting": "boolean"
+      },
+      "authenticity_markers": ["array of strings (e.g., 'personal_anecdote', 'specific_dosage_details', 'situational_context', 'promotional_language', 'sponsored_tag', 'generic_testimonial', 'withdrawal_mentioned', 'absent')"],
+      "healthcare_interaction": "string (e.g., 'prescribed by psychiatrist', 'self-medicated', 'GP consultation', 'unknown')",
+      "lifestyle_changes_mentioned": ["array of strings (e.g., 'therapy', 'exercise', 'diet_change', 'none')"]
+    },
+    "image_video_based": {
+      "setting_type": "string (Home_Casual | Public_Space | Medical_Setting | Studio_Professional | Unclear)",
+      "presenter_cues": {
+        "appears_patient": "boolean",
+        "appears_medical_professional": "boolean",
+        "displays_medication": "boolean (e.g., shows pill bottle or prescription)"
+      },
+      "presenter_facial_expression": "string (Neutral_Calm | Distressed_Sad | Enthusiastic_Confident | Flat_Numb | Other_Mixed | Unclear)",
+      "presenter_body_language_intensity": "string (Calm_Subtle | Moderate_Gestures | Emotional_Animated | Unclear)",
+      "prop_presence": {
+        "medication_items_shown": "boolean (e.g., pill bottle, prescription label)",
+        "personal_items_shown": "boolean (e.g., diary, personal photos)",
+        "promotional_items_shown": "boolean (e.g., branded materials, logos)"
+      },
+      "on_screen_text_type": "string (Drug_Information | Side_Effect_Warning | Personal_Story | Promotional_Message | Call_to_Action | None)",
+      "visual_tone_aesthetics": {
+        "visual_quality": "string (High_Production | Medium_Production | Low_Amateur | Unclear)",
+        "dominant_color_palette": "string (Warm | Cool | Neutral | Dark_Somber | Mixed | Unclear)",
+        "social_media_filters_effects": "boolean (e.g., TikTok or Instagram filters)"
+      },
+      "audience_engagement_visual_cues": ["array of strings (e.g., 'direct_camera_address', 'on_screen_text_emphasis', 'call_to_action_text', 'emojis_overlays', 'none')"]
+    },
+    "audio_based": {
+      "background_music_presence": "boolean",
+      "background_music_mood": "string (Uplifting_Hopeful | Sad_Melancholic | Neutral_Ambient | Dramatic_Suspenseful | Absent | Unclear)",
+      "sound_effects_presence": "boolean",
+      "sound_effects_type": "string (Soft_Transitions | Dramatic_Emphasis | None | Unclear)",
+      "speaker_tone_emotion": "string (Calm | Emotional | Urgent | Flat_Monotone | Sympathetic | Sarcastic | Other_Mixed | Unclear)",
+      "speaker_volume_variation": "string (Consistent | Moderate_Variation | High_Variation_for_Emphasis | Unclear)",
+      "strategic_pauses_used": "boolean",
+      "speech_clarity": "string (Clear | Moderate_Clarity | Low_Clarity | Unclear)"
+    }
+  }
+}

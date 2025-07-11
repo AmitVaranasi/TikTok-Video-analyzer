@@ -1,0 +1,106 @@
+{
+  "video_filename": "string",
+  "analysis_timestamp": "string (YYYY-MM-DDTHH:MM:SSZ)",
+  "features": {
+    "text_based": {
+      "narrative_type": "string (Personal Experience | Educational/Informational | Product Review | Medical Advice | Promotional Content | Warning/Caution | Other | Unclear)",
+      "drug_information": {
+        "drug_name_mentioned": "string (specific drug name or 'Not Mentioned' or 'Generic Reference')",
+        "antidepressant_class": "string (SSRI | SNRI | TCA | MAOI | Atypical | NDRI | SARI | NaSSA | Not Mentioned | Unclear)",
+        "specific_drug_examples": {
+          "ssri_examples": ["sertraline", "fluoxetine", "escitalopram", "paroxetine", "citalopram", "fluvoxamine"],
+          "snri_examples": ["venlafaxine", "duloxetine", "desvenlafaxine", "levomilnacipran"],
+          "tca_examples": ["amitriptyline", "nortriptyline", "imipramine", "doxepin", "clomipramine"],
+          "maoi_examples": ["phenelzine", "tranylcypromine", "isocarboxazid", "selegiline"],
+          "atypical_examples": ["bupropion", "mirtazapine", "trazodone", "vilazodone", "vortioxetine"],
+          "ndri_examples": ["bupropion"],
+          "sari_examples": ["trazodone", "nefazodone"],
+          "nassa_examples": ["mirtazapine"]
+        },
+        "dosage_specified": "string (specific dosage or 'Not Mentioned' or 'Vague Reference')",
+        "duration_of_use": "string (specific timeframe or 'Not Mentioned' or 'Ongoing')",
+        "reason_for_starting": ["array of strings (e.g., 'depression', 'anxiety', 'panic_disorder', 'ocd', 'ptsd', 'other_specified', 'not_mentioned')"],
+        "prescribing_context": "string (First Treatment | After Other Medications Failed | Self-Directed | Not Mentioned | Unclear)"
+      },
+      "experience_details": {
+        "side_effects_mentioned": ["array of strings (e.g., 'weight_gain', 'sexual_dysfunction', 'nausea', 'drowsiness', 'insomnia', 'headache', 'withdrawal_symptoms', 'other_specified', 'none_mentioned')"],
+        "efficacy_described": "string (Very Effective | Somewhat Effective | Ineffective | Mixed Results | Not Mentioned | Unclear)",
+        "timeline_to_effects": "string (Days | Weeks | Months | Gradual | Immediate | Not Mentioned | Unclear)",
+        "discontinuation_mentioned": "boolean",
+        "drug_switching_history": "boolean"
+      },
+      "authenticity_indicators": {
+        "medical_terminology_usage": "string (Appropriate/Natural | Overly Technical | Copied/Scripted | Absent | Unclear)",
+        "specific_personal_details": "boolean",
+        "healthcare_provider_mentions": "boolean",
+        "treatment_timeline_coherence": "string (Coherent | Somewhat Coherent | Inconsistent | Unclear)",
+        "balanced_perspective": "boolean"
+      },
+      "emotional_language_present": {
+        "hope": "boolean",
+        "despair": "boolean",
+        "frustration": "boolean",
+        "relief": "boolean",
+        "fear": "boolean",
+        "gratitude": "boolean",
+        "regret": "boolean",
+        "determination": "boolean"
+      },
+      "commercialization_flags": ["array of strings (e.g., 'affiliate_links', 'discount_codes', 'brand_promotion', 'sponsored_content', 'overly_positive_review', 'generic_testimonial', 'call_to_purchase', 'absent')"],
+      "advice_giving_present": "boolean",
+      "disclaimer_present": "boolean"
+    },
+    "image_video_based": {
+      "setting_type": "string (Indoor_Home | Outdoor_Public | Medical_Setting | Studio_Professional | Abstract_Graphics | Car/Vehicle | Other | Unclear)",
+      "presenter_cues": {
+        "appears_medical_professional": "boolean",
+        "shows_medication_packaging": "boolean",
+        "presents_medical_documentation": "boolean",
+        "consistent_appearance": "boolean"
+      },
+      "presenter_facial_expression": "string (Neutral_Calm | Distressed_Emotional | Hopeful_Positive | Frustrated_Negative | Serious_Concerned | Mixed_Variable | Other | Unclear)",
+      "presenter_body_language_intensity": "string (Calm_Subtle | Moderate_Gestures | Animated_Expressive | Restrained_Tense | Unclear)",
+      "prop_presence": {
+        "medication_bottles_shown": "boolean",
+        "medical_documents_shown": "boolean",
+        "personal_items_context": "boolean",
+        "branded_products_shown": "boolean"
+      },
+      "on_screen_text_type": "string (Drug_Names_Dosage | Warning_Disclaimer | Personal_Message | Statistics_Data | Call_to_Action | Timeline_Markers | Other | Absent)",
+      "visual_tone_aesthetics": {
+        "visual_quality": "string (High_Production | Medium_Production | Low_Amateur | Phone_Selfie | Graphics_Only)",
+        "lighting_consistency": "string (Professional | Natural | Poor | Inconsistent | Unclear)",
+        "dominant_color_palette": "string (Warm | Cool | Neutral | High_Contrast | Dark_Somber | Bright_Cheerful | Mixed | Unclear)",
+        "platform_specific_effects": "boolean"
+      },
+      "audience_engagement_visual_cues": ["array of strings (e.g., 'direct_camera_address', 'text_overlays', 'visual_timeline', 'before_after_comparison', 'progress_tracking', 'community_reference', 'absent')"],
+      "editing_patterns": {
+        "multiple_takes_evident": "boolean",
+        "jump_cuts_present": "boolean",
+        "professional_editing": "boolean"
+      }
+    },
+    "audio_based": {
+      "background_music_presence": "boolean",
+      "background_music_mood": "string (Uplifting_Hopeful | Sad_Melancholic | Neutral_Ambient | Dramatic_Intense | Calming_Soothing | Absent | Unclear)",
+      "sound_effects_presence": "boolean",
+      "sound_effects_type": "string (Notification_Sounds | Transition_Effects | Emphasis_Sounds | Other | Absent | Unclear)",
+      "speaker_tone_emotion": "string (Neutral | Calm_Reassuring | Emotional_Vulnerable | Conversational | Professional | Urgent | Frustrated | Hopeful | Other_Mixed | Unclear)",
+      "speaker_volume_variation": "string (Consistent | Moderate_Variation | High_Variation_for_Emphasis | Whispered_Sections | Unclear)",
+      "speech_patterns": {
+        "strategic_pauses_used": "boolean",
+        "speech_rate_changes": "boolean",
+        "voice_tremor_emotion": "boolean",
+        "scripted_vs_natural": "string (Natural_Spontaneous | Somewhat_Prepared | Clearly_Scripted | Unclear)"
+      },
+      "audio_quality": "string (Professional | Good_Clear | Average_Phone | Poor_Distorted | Unclear)",
+      "background_noise_present": "boolean"
+    },
+    "temporal_contextual": {
+      "video_length": "string (Under_1_min | 1-3_min | 3-5_min | 5-10_min | Over_10_min)",
+      "upload_timing_relevance": "boolean",
+      "series_part_indicated": "boolean",
+      "follow_up_promised": "boolean"
+    }
+  }
+}

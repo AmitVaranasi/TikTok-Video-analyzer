@@ -1,0 +1,87 @@
+{
+  "video_filename": "string",
+  "analysis_timestamp": "string (ISO 8601 format)",
+  "self_reported_demographics": {
+    "age_range": "string (e.g., '18-24') | null",
+    "gender": "string | null",
+    "race_ethnicity": "string | null"
+  },
+  "features": {
+    "medication_analysis": [
+      {
+        "mentioned_name": "string",
+        "normalized_name": "string",
+        "drug_class": "SSRI | SNRI | NDRI | TCA | MAOI | Atypical | Other | Unclear",
+        "dosage": "string (e.g., '100mg daily')",
+        "treatment_duration": "string (e.g., '6 months')",
+        "initiation_context": "Doctor_Prescribed | Self_Medicated | Other | Unclear",
+        "effectiveness": {
+          "rating": "Positive | Mixed | Negative | Unclear",
+          "time_to_effect": "string (e.g., '4 weeks')",
+          "functional_improvements": ["work", "relationships", "daily_activities", "none"]
+        }
+      }
+    ],
+    "treatment_context": {
+      "reasons": ["Depression", "Anxiety", "PTSD", "OCD", "Chronic_Pain", "Other"],
+      "source_attribution": "Doctor | Therapist | Self_Research | Friend_Family | Other | Unclear"
+    },
+    "side_effects": {
+      "reported_effects": ["array of strings"],
+      "known_side_effect": "boolean",
+      "novel_side_effect": "boolean"
+    },
+    "discontinuation": {
+      "mentioned": "boolean",
+      "withdrawal_symptoms": ["array of strings"],
+      "withdrawal_duration": "string",
+      "management_method": "Tapering | Cold_Turkey | Replacement_Therapy | Unclear"
+    },
+    "authenticity_indicators": {
+      "sponsorship_disclosure": "boolean",
+      "affiliate_links": "boolean",
+      "scripted_speech": "boolean",
+      "inconsistent_details": "boolean",
+      "professional_production": "boolean"
+    },
+    "text_based": {
+      "emotional_language": {
+        "hopeful": "boolean",
+        "distressed": "boolean",
+        "frustrated": "boolean",
+        "grateful": "boolean",
+        "emotional_blunting": "boolean",
+        "suicidal_ideation": "boolean"
+      }
+    },
+    "image_video_based": {
+      "setting_type": "Home | Medical | Studio | Outdoor | Unclear",
+      "visual_props": {
+        "prescription_bottles": "boolean",
+        "pills_visible": "boolean",
+        "medical_documents": "boolean"
+      },
+      "presenter_affect": {
+        "facial_expression": "Neutral | Distressed | Animated | Flat | Mixed | Unclear",
+        "body_language": "Restless | Slumped | Self_Soothing | Neutral | Unclear"
+      }
+    },
+    "audio_based": {
+      "vocal_tone": {
+        "pitch_variability": "Low | Medium | High | Unclear",
+        "speech_rate": "Slow | Normal | Fast | Unclear",
+        "articulation": "Clear | Slurred | Unclear"
+      },
+      "emotional_cues": {
+        "flat_affect": "boolean",
+        "anxious_tension": "boolean",
+        "emotional_lability": "boolean"
+      },
+      "vocal_stress": {
+        "tremor": "boolean",
+        "vocal_fatigue": "boolean",
+        "abrupt_pauses": "boolean"
+      }
+    }
+  }
+}
