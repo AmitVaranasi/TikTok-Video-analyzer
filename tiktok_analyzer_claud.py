@@ -245,10 +245,10 @@ For categorical features, choose *exactly one* from the provided options. If a f
 # --- Main execution ---
 if __name__ == "__main__":
     tiktok_videos = [
-        "tiktok_video_3.mp4",
-        "tiktok_video_4.mp4",
-        "tiktok_video_5.mp4",
-        "tiktok_video_6.mp4",
+        "./TikTok Videos/tiktok_video_3.mp4",
+        "./TikTok Videos/tiktok_video_4.mp4",
+        "./TikTok Videos/tiktok_video_5.mp4",
+        "./TikTok Videos/tiktok_video_6.mp4",
         
     ]
 
